@@ -12,6 +12,6 @@ public class SaludoController {
     @Operation(summary = "Devuelve un saludo simple", description = "Este endpoint devuelve un mensaje de saludo.")
     @GetMapping("/api/saludo")
     public String saludo() {
-        return "¡Hola, esta es una API sin base de datos!";
+        return "¡Hola javier/Alexander, esta es una API sin base de datos!";
     }
 }
